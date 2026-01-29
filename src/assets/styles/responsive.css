@@ -1,0 +1,46 @@
+/* src/assets/styles/responsive.css */
+
+/* 默认样式，适用于小屏设备 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* 针对大于 768px 屏幕的设备（如 iPad 和其他平板设备） */
+  @media screen and (min-width: 768px) {
+    body {
+      padding: 20px;
+    }
+  
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* 针对大于 1024px 屏幕的设备（如桌面设备） */
+  @media screen and (min-width: 1024px) {
+    body {
+      padding: 30px;
+    }
+  
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* 针对大于 1200px 屏幕的设备（如大屏桌面设备） */
+  @media screen and (min-width: 1200px) {
+    body {
+      padding: 40px;
+    }
+  
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+  }
+  

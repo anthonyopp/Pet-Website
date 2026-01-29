@@ -1,26 +1,54 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- 全局导航栏 -->
+    <Navbar />
+
+    <!-- 主内容区域 -->
+    <div class="main-content">
+      <router-view /> <!-- 动态加载页面内容 -->
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <p>© 2025 宠物之家. All Rights Reserved.</p>
+    </footer>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/MainNavbar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Navbar, // 导入导航栏组件
+  },
+};
 </script>
 
 <style>
+/* 全局样式 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 10px 0;
 }
 </style>
