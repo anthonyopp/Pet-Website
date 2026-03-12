@@ -18,7 +18,7 @@ export const pets = [
     { id: 15, name: '荷兰猪', image: 'images/guinea_pig.webp', description: '温顺可爱的荷兰猪' },
     { id: 16, name: '蜜袋鼯', image: 'images/sugar_glider.jpg', description: '迷你的滑翔萌宠' },
     { id: 17, name: '蝴蝶犬', image: 'images/papillon.jpg', description: '优雅灵巧的伴侣犬' },
-    { id: 18, name: '松狮', image: 'images/chow_chow.webp', description: '独特的松狮犬' },
+    { id: 18, name: '松狮', image: 'images/chow_chow.jpg', description: '独特的松狮犬' },
     { id: 19, name: '锦蛇', image: 'images/corn_snake.jpg.jpg', description: '新手蛇类爱好者的首选' },
     { id: 20, name: '仓鸽', image: 'images/homing_pigeon.jpeg', description: '和平象征的仓鸽' },
   ];
