@@ -16,17 +16,17 @@
       <h2>我们的推荐宠物</h2>
       <div class="pet-list">
         <el-card class="pet-item" :body-style="{ padding: '20px' }">
-          <img src="https://n.sinaimg.cn/sinakd10118/560/w1080h1080/20200525/0200-itzixrt2179351.jpg" alt="宠物1" />
+          <img src="images/home_cat.jpg" alt="宠物1" />
           <p>可爱的猫咪</p>
         </el-card>
 
         <el-card class="pet-item" :body-style="{ padding: '20px' }">
-          <img src="https://th.bing.com/th/id/R.a4ed42e2baf1c650adb03b9d7e458b62?rik=Y3EWtRkEFq9PwQ&riu=http%3a%2f%2fpic11.nipic.com%2f20101115%2f6163721_102552846000_2.jpg&ehk=KpQEThDayaHRqDzwFc1bKmayeje8Gk%2fDj6Zrcf5x868%3d&risl=&pid=ImgRaw&r=0" alt="宠物2" />
+          <img src="images/home_dog1.webp" alt="宠物2" />
           <p>活泼的小狗</p>
         </el-card>
 
         <el-card class="pet-item" :body-style="{ padding: '20px' }">
-          <img src="https://nwzimg.wezhan.net/contents/sitefiles3607/18038568/images/8189481.gif" alt="宠物3" />
+          <img src="images/home_rabbit.png" alt="宠物3" />
           <p>温顺的小兔子</p>
         </el-card>
       </div>

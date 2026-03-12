@@ -67,7 +67,7 @@ export default {
     return {
       services: [
         { icon: "Edit", title: "宠物护理", description: "提供专业的宠物美容、清洁与护理服务。" },
-        { icon: "FirstAidKit", title: "健康检查", description: "为宠物提供全面的健康检查，确保它们的身体状况良好。" },
+        { icon: "FirstAidKit", title: "健康检查", description: "为宠物提供全面的健康检查，确保它们身体状况良好。" },
         { icon: "House", title: "宠物寄养", description: "为您提供安全、舒适的宠物寄养服务。" },
         { icon: "Present", title: "宠物用品", description: "精选高品质宠物用品，满足宠物的日常需求。" },
       ],

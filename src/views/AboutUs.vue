@@ -82,9 +82,9 @@
           { icon: "ElementPlus", title: "社区互动", description: "汇聚宠物爱好者，共享养宠经验。" },
         ],
         team: [
-          { name: "张伟", role: "创始人", avatar: "https://th.bing.com/th/id/R.8a3eb3e66d7baa8696515ae544b2e367?rik=vGa0BjKSyHIV9A&riu=http%3a%2f%2fempic.dfcfw.com%2f961573693606330381%2fw1000h1000%2fart&ehk=3asLjDU7Lb%2fu7iLhzjKdQBbg%2fJc%2bKtyRlxHjucyGvtk%3d&risl=&pid=ImgRaw&r=0" },
-          { name: "李娜", role: "首席兽医", avatar: "https://th.bing.com/th/id/OIP.0GI9YMPUAQF-O3X4vcIXLAHaHQ?rs=1&pid=ImgDetMain" },
-          { name: "王强", role: "产品经理", avatar: "https://th.bing.com/th/id/OIP.2hznygWncTa8LEYBHhy4sAHaHW?rs=1&pid=ImgDetMain" },
+          { name: "张伟", role: "创始人", avatar: "images/张伟.jpeg" },
+          { name: "李娜", role: "首席兽医", avatar: "images/李娜.jpeg" },
+          { name: "王强", role: "产品经理", avatar: "images/王强.webp" },
         ],
         clients: [
           { logo: "https://static.vecteezy.com/system/resources/previews/006/470/731/original/modern-animal-pet-logo-template-free-vector.jpg" },

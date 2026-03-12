@@ -2,7 +2,7 @@ export const pets = [
     {
         id: 1,
         name: '小猫',
-        image: 'https://img.alicdn.com/bao/uploaded/i1/2209835391252/O1CN013IXaMa1L7SXe8qSkO_!!2209835391252.jpg',
+        image: '/images/cat.jpg',
         character: '活泼',
         age: '2岁',
         breed: '中华田园猫',
@@ -13,7 +13,7 @@ export const pets = [
       {
         id: 2,
         name: '小狗',
-        image: 'https://th.bing.com/th/id/R.264e0e2adbb5ebeed7d774a1a6989e6e?rik=7SlM7BsVhdqxhA&riu=http%3a%2f%2fpic.bizhi360.com%2fbpic%2f54%2f354.jpg&ehk=0x7R%2f%2bI33ol1eY5%2fZN36ohssKifRzHLxJ4AOvtRaON4%3d&risl=&pid=ImgRaw&r=0',
+        image: '/images/dog.jpg',
         character: '温顺',
         age: '3岁',
         breed: '金毛',
@@ -24,7 +24,7 @@ export const pets = [
       {
           id: 3,
           name: '鹦鹉',
-          image: 'https://pic.52112.com/180209/180209_86/owf0vzSMGH.jpg',
+          image: '/images/parrot.jpg',
           character: '活泼，聪明，喜欢与主人互动',
           age: '3岁',
           breed: '虎皮鹦鹉',
@@ -35,7 +35,7 @@ export const pets = [
           {
           id: 4,
           name: '小兔',
-          image: 'https://th.bing.com/th/id/OIP.WSLL-7Sd1_m8PA0WJATOSAHaE8?rs=1&pid=ImgDetMain',
+          image: '/images/rabbit.jpeg',
           character: '安静',
           age: '1岁',
           breed: '荷兰兔',
@@ -46,7 +46,7 @@ export const pets = [
           {
           id: 5,
           name: '仓鼠',
-          image: 'https://pic4.zhimg.com/v2-d0d586b47421d49d3e5fbae16ab4e247_r.jpg',
+          image: '/images/hamster.jpg',
           character: '活泼、好动，喜欢夜间活动',
           age: '2岁',
           breed: '叙利亚仓鼠',
@@ -57,7 +57,7 @@ export const pets = [
           {
           id: 6,
           name: '金鱼',
-          image: 'https://pic.nximg.cn/file/20230817/33760392_143224583126_2.jpg',
+          image: '/images/golden_fish.jpg',
           character: '温和、优雅',
           age: '5岁',
           breed: '红色金鱼',
@@ -68,7 +68,7 @@ export const pets = [
           {
           id: 7,
           name: '龙猫',
-          image: 'https://th.bing.com/th/id/OIP.YatIXfoUnJe-KCLfRa-kuwHaGj?rs=1&pid=ImgDetMain',
+          image: '/images/chinchilla.jpeg',
           character: '活泼、好奇，喜欢在夜间活动',
           age: '3岁',
           breed: '长毛龙猫',
@@ -79,7 +79,7 @@ export const pets = [
           {
           id: 8,
           name: '乌龟',
-          image: 'https://img95.699pic.com/photo/60080/3590.jpg_wh860.jpg',
+          image: '/images/turtle.jpeg',
           character: '温和、耐心',
           age: '10岁',
           breed: '巴西龟',
@@ -90,7 +90,7 @@ export const pets = [
           {
           id: 9,
           name: '刺猬',
-          image: 'https://th.bing.com/th/id/R.1984763d8fd10974aeffe0de38fca1a2?rik=KZrCpBPiXq7UoQ&riu=http%3a%2f%2fpic.baike.soso.com%2fugc%2fbaikepic2%2f23219%2f20170218212406-832416629.jpg%2f0&ehk=LN4NF0AL1l%2fj%2fN%2byr3HE65%2boIw6q0omfWjxDM%2bgSWVE%3d&risl=&pid=ImgRaw&r=0',
+          image: '/images/hedgehog.jpeg',
           character: '独立、好奇，夜间活动',
           age: '4岁',
           breed: '非洲刺猬',
@@ -101,7 +101,7 @@ export const pets = [
           {
           id: 10,
           name: '松鼠',
-          image: 'https://th.bing.com/th/id/R.60e5000280fa18f34c24a7d89902b58c?rik=58I%2fsuGZ0ldpPw&riu=http%3a%2f%2fpic21.nipic.com%2f20120529%2f5252423_184207506000_2.jpg&ehk=Ko83GavycmBfb7iSfN1AT9ml8UAjtPzhjPNx6%2bzqL6w%3d&risl=&pid=ImgRaw&r=0',
+          image: '/images/squirrel.webp',
           character: '活泼、好奇',
           age: '3岁',
           breed: '红松鼠',
@@ -112,7 +112,7 @@ export const pets = [
           {
           id: 11,
           name: '八哥鸟',
-          image: 'https://cdnappimg.dongniaodi.com/tukuimgs/2/20201104144850_473521.jpg',
+          image: '/images/myna.jpg',
           character: '爱模仿、活泼',
           age: '2岁',
           breed: '八哥',
@@ -123,7 +123,7 @@ export const pets = [
           {
           id: 12,
           name: '蜥蜴',
-          image: 'https://img95.699pic.com/photo/32119/2847.jpg_wh860.jpg',
+          image: '/images/lizard.jpg',
           character: '冷静、独立',
           age: '5年',
           breed: '变色龙',
@@ -134,7 +134,7 @@ export const pets = [
           {
           id: 13,
           name: '锦鲤',
-          image: 'https://photo-static-api.fotomore.com/creative/vcg/veer/612/veer-158536057.jpg',
+          image: '/images/koi_fish.jpg',
           character: '温和、优雅',
           age: '4年',
           breed: '锦鲤',
@@ -145,7 +145,7 @@ export const pets = [
           {
           id: 14,
           name: '变色龙',
-          image: 'https://th.bing.com/th/id/R.016d33cbf24c304dd2b3b55b2c8f283d?rik=BHpIWNOGXQskDQ&riu=http%3a%2f%2fimg0.dili360.com%2fga%2fM02%2f00%2fFF%2fwKgBy1Q2gnCAGSTlAAJldVmRnMU559.jpg%40!rw17&ehk=J94fweCbspD7%2bMoLGnd%2fGnpnQoQgpRTyzMVlvQ6Pu5Q%3d&risl=&pid=ImgRaw&r=0',
+          image: '/images/chameleon.jpeg',
           character: '冷静、独立',
           age: '5年',
           breed: '变色龙',
@@ -156,7 +156,7 @@ export const pets = [
           {
           id: 15,
           name: '荷兰猪',
-          image: 'https://p5.itc.cn/q_70/images03/20230101/79f18bd194a44efaa2e86066183186f5.png',
+          image: '/images/guinea_pig.webp',
           character: '温顺、亲人',
           age: '2岁',
           breed: '荷兰猪',
@@ -167,7 +167,7 @@ export const pets = [
           {
           id: 16,
           name: '蜜袋鼯',
-          image: 'https://www.newton.com.tw/img/1/ff3/cGcq5iMmNWZlBzM3YGN3UWNilzM3Y2NxIjN3QzLtVGdp9yYpB3LltWahJ2Lt92YuUHZpFmYuMmczdWbp9yL6MHc0RHa.jpg',
+          image: '/images/sugar_glider.jpg',
           character: '活泼、好奇',
           age: '3岁',
           breed: '蜜袋鼯',
@@ -178,7 +178,7 @@ export const pets = [
           {
           id: 17,
           name: '蝴蝶犬',
-          image: 'https://pic4.zhimg.com/v2-8ac22138dfc5aa39eb67ba1c97db63ef_r.jpg',
+          image: '/images/papillon.jpg',
           character: '机警、聪明',
           age: '4岁',
           breed: '蝴蝶犬',
@@ -189,7 +189,7 @@ export const pets = [
           {
           id: 18,
           name: '松狮',
-          image: 'https://pic.nximg.cn/file/20170711/25232793_123724124000_2.jpg',
+          image: '/images/chow_chow.jpg',
           character: '忠诚、温和',
           age: '5岁',
           breed: '松狮犬',
@@ -200,7 +200,7 @@ export const pets = [
           {
           id: 19,
           name: '锦蛇',
-          image: 'https://so1.360tres.com/t01c052d49822e6b7b3.jpg',
+          image: '/images/corn_snake.jpg.jpg',
           character: '冷静、低调',
           age: '2年',
           breed: '锦蛇',
@@ -211,7 +211,7 @@ export const pets = [
           {
           id: 20,
           name: '仓鸽',
-          image: 'https://th.bing.com/th/id/OIP.XYRvsF8pFsG6X5GQepojowAAAA?rs=1&pid=ImgDetMain',
+          image: '/images/homing_pigeon.jpeg',
           character: '温顺、聪明',
           age: '3年',
           breed: '普通鸽',
