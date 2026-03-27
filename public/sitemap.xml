@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pet-website-psi.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://pet-website-psi.vercel.app/pets</loc>
+  </url>
+  <url>
+    <loc>https://pet-website-psi.vercel.app/pets/details</loc>
+  </url>
+  <url>
+    <loc>https://pet-website-psi.vercel.app/pet_service</loc>
+  </url>
+  <url>
+    <loc>https://pet-website-psi.vercel.app/about_us</loc>
+  </url>
+</urlset>

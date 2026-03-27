@@ -1,5 +1,6 @@
 <template>
     <div class="about-us">
+      <h1 class="seo-hidden">About Us</h1>
       <!-- 标题区 -->
       <el-row class="header-section" justify="center">
         <el-col :span="16">

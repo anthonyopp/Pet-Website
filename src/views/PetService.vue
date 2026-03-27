@@ -1,5 +1,6 @@
 <template>
   <div class="pet-services">
+    <h1 class="seo-hidden">Pet Services</h1>
     <!-- 标题区 -->
     <el-row class="header-section" justify="center">
       <el-col :span="16">

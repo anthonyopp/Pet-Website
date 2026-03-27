@@ -1,5 +1,6 @@
 <template>
   <div class="homepage">
+    <h1 class="seo-hidden">Welcome to Our Pet Website</h1>
     <!-- 背景 -->
     <div class="hero">
       <div class="hero-overlay">

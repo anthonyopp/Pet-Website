@@ -1,5 +1,6 @@
 <template>
     <div>
+      <h1 class="seo-hidden">Pet List</h1>
       <h2 class="title">宠物列表</h2>
       <el-row :gutter="20">
         <el-col :xs="24" :sm="12" :md="8" :lg="6" :key="pet.id" v-for="pet in pets">

@@ -1,5 +1,6 @@
 <template>
     <div>
+      <h1 class="seo-hidden">Pet Details</h1>
       <div class="scroll-container">
         <el-card shadow="hover" class="pet-details-card" v-for="pet in pets" :key="pet.id">
           <h2 class="pet-title">{{ pet.name }}的详情</h2>
